@@ -1,0 +1,18 @@
+.btn_base {
+    font-size: get-font-size(regular, '+++') !important;
+    font-weight: get-font-weight(boldest) !important;
+    line-height: 2.8 !important;
+    margin-top: 5px !important;
+}
+
+.btn_primary {
+    color: #fff !important;
+    background-color: array-get($m--state-colors, success, base) !important;
+}
+
+.btn_danger {
+    color: #fff !important;
+    background-color: array-get($m--state-colors, danger, base) !important;
+}
+
+
